@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Details</title>
+      <meta charset="utf-8">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+<div class="container register-form">
+    <a class="navbar-brand" href="{% url 'index' %}">
+        <h4>Edit Details</h4>
+    </a><br>
+
+                <center>
+                    <form action="/update/" method="post">
+                        {% csrf_token %}
+                        <div class="form-inline">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>URL</th>
+                                <th>Phone Number</th>
+                                <th>Operations</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><input type="text" class="form-control" name="txtid" value="{{record.id}}"></td>
+                            <td><input type="text" class="form-control" name="txtname" value="{{record.name}}"></td>
+                            <td><input type="text" class="form-control" name="txturl" value="{{record.url}}"></td>
+                            <td><input type="text" class="form-control" name="txtnum" value="{{record.number}}"></td>
+                            <td><input type="submit" class="btn btn-success" value="Update"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </form>
+                </center>
+            </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  var options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓' // default: ''
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+
+</script>
+</html>
