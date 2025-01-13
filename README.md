@@ -1,4 +1,4 @@
-Django CRUD Operations Project:
+Django CRUD Operations using Python:
 
 This project is a Django-based web application demonstrating CRUD (Create, Read, Update, Delete) operations. It provides an intuitive interface for managing records stored in a database and is built with Python and Django.
 
