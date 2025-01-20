@@ -32,7 +32,8 @@ cd <repository-directory>
 Set Up a Virtual Environment:
 
 python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+source env/bin/activate  
+# On Windows: env\Scripts\activate
 
 Install Dependencies:
 
