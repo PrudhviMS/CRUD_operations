@@ -27,6 +27,7 @@ Database System: (e.g., SQLite, PostgreSQL).
 Clone the Repository:
 
 git clone <repository-url>
+
 cd <repository-directory>
 
 Set Up a Virtual Environment:
