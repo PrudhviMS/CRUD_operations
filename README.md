@@ -16,6 +16,7 @@ Highly Customizable: Easily extendable to fit additional functionalities or inte
 
 Before getting started, ensure you have the following installed on your system:
 
+
 Python: Version 3.8 or higher.
 
 Django: Version 4.0 or higher.
