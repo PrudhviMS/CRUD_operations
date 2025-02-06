@@ -1,5 +1,7 @@
 Django CRUD Operations using Python
 
+
+
 Welcome to the Django CRUD Operations project! This web application is designed to demonstrate the fundamental operations of Create, Read, Update, and Delete using Django—a high-level Python web framework.
 
 🌟 Features
@@ -15,7 +17,6 @@ Highly Customizable: Easily extendable to fit additional functionalities or inte
 🛠️ Prerequisites
 
 Before getting started, ensure you have the following installed on your system:
-
 
 Python: Version 3.8 or higher.
 
