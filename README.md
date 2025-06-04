@@ -5,6 +5,8 @@ Django CRUD Operations using Python
 
 
 
+
+
 Welcome to the Django CRUD Operations project! This web application is designed to demonstrate the fundamental operations of Create, Read, Update, and Delete using Django—a high-level Python web framework.
 
 🌟 Features
